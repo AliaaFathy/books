@@ -12,15 +12,13 @@ function App(){
     useEffect(()=>{
         fetchBook();
     },[])
-    const DeleteBookByID=async (id)=>{  //ask here
+    const DeleteBookByID=async (id)=>{
         const response=await axios.delete(`http://localhost:3001/books/${id}`)
-        const updatedBooklist=await axios.get('http://localhost:3001/books')
-
-      /*  console.log(response)
+        console.log(response)
         const newBook=books.filter((book)=>{
             return book.id!=id
-        })*/
-        setBooks(updatedBooklist.data)
+        })
+        setBooks(newBook)
     }
     const EditBookById=async (id,newTitle)=>{
         const  response= await axios.put(`http://localhost:3001/books/${id}`,{
