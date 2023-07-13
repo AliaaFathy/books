@@ -34,7 +34,7 @@ function App(){
         setBooks(updatedBook);
     }
     const createBook=async (title)=>{
-      const response= await axios.post('http://localhost:3001/books',{
+        const response= await axios.post('http://localhost:3001/books',{
             title
         })
         console.log(response.data)
