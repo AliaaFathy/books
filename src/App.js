@@ -7,7 +7,7 @@ function App(){
     const {fetchBook}=useContext(BooksContext);
     useEffect(()=>{
         fetchBook();
-    },[])
+    },[fetchBook])
 
     return(
         <div className="app">

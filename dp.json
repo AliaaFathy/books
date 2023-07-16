@@ -1,32 +1,16 @@
 {
   "books": [
     {
-      "title": "llkuj",
+      "title": "Harry potter",
+      "id": 1
+    },
+    {
+      "title": "Invisible Man",
       "id": 2
     },
     {
-      "title": "njop",
+      "title": "The Great Gatsby",
       "id": 3
-    },
-    {
-      "title": "nnnnnnnnn",
-      "id": 4
-    },
-    {
-      "title": "ddd",
-      "id": 5
-    },
-    {
-      "title": "dd",
-      "id": 6
-    },
-    {
-      "title": "dfsd",
-      "id": 7
-    },
-    {
-      "title": "ddf",
-      "id": 8
     }
   ]
 }
